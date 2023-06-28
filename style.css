@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    
+}
+.container{
+    height: 135px;
+    width: 99%;
+    background-color:rgb(0, 0, 0); 
+    padding:0.5%;   
+}
+.small-container{
+    
+    height: 135px;
+    width: 50%;
+    margin: 0px auto;
+   
+}
+.Title {
+   
+    height: 135px;
+    width: 80%;
+    float: right;
+       
+}
+.Title h4 {
+    color: rgb(213, 213, 213);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    
+    
+}
+.logo{
+   
+    height: 135px;
+    width: 20%;
+    float: left;
+}
+
+
+
+.navigation-bar{
+    height: 50px;
+    background-color:#fa1939 ;
+}
+.Home{
+    height: 50px;
+    width: 60%;
+    margin: 0px auto ;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+a{
+    text-decoration: none;
+    font-family: Kh Writhand;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    transition: 0.4s;
+    height: 30px;
+
+}
+
+a:hover{
+    background-color: #6200ff;
+}
+
